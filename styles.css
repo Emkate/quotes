@@ -1,0 +1,53 @@
+body{
+    transition:background 3s;
+}
+#quote{
+    float: left;
+    width: 100%;
+    font-family: Lobster, sans-serif;
+    transition:color 3s;
+
+}
+#author{
+    float: none;
+    width: 100%;
+    font-family: Lobster, sans-serif;
+    font-size: 10px;
+    text-align: right !important;
+    transition:color 3s;
+}
+
+#buttonDiv{
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 10px;
+}
+
+#buttonDiv > button{
+    background-color: white;
+    color: white;
+}
+
+#twitterButton{
+    font-size: 20px;
+    transition:background 3s;
+}
+
+#newQuoteButton{
+    font-size: 15px;
+    transition:background 3s;
+}
+
+@media(max-width: 768px) {
+    #windowDiv {
+        margin: 15% 10% 0 10%;
+    }
+}
+@media(min-width: 768px){
+    #windowDiv {
+        margin: 15% 0 0 0;
+    }
+
+}
+.jumbotron{
+    background-color: white !important;
+}
